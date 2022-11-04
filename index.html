@@ -3,20 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Pseudo Elements</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Nicole Trieu's Porfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <body>
     <header>
-      <h1>The CSS Blog</h1>
+      <h1>Nicole Trieu</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resources</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">Resume</a></li>
         </ul>
       </nav>
     </header>
+
+    <div class="hero"></div>
+
+    <main>
+        <section class="container">
+            <h2>About Me</h2>
+            <p>I graduated from UCI in 2020 with a B.S. in Biology/Education and a teaching credential in Biological Sciences from the UCI CalTeach program. I worked full-time as a teacher for the last 2 years; first at a middle school teaching Integrated Sciences and then at a high school teaching Environmental Science. I loved teaching kids but now I am looking to pivot my career into the education technology and/or environmental science fields.</p>
+        </section>
+        <section class="container">
+            <h2>Work</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="assets/images/phone-app.jpeg" id="phone-app" alt="a mobile app in Apple App Store">
+                </div>
+                <div class="grid-item">
+                    <img src="assets/images/calculator.jpeg" id="calculator" alt="a black and a white calculator app">
+                </div>
+            </div>
+        </section>
+    </main>
