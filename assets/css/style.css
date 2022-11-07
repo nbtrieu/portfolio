@@ -97,6 +97,8 @@ main {
     padding-left: 5%;
 }
 
+/* Section 2: Work */
+
 /* First portfolio app */
 #first-app {
     display: flex;
@@ -166,4 +168,14 @@ main {
 .text {
     position: absolute;
     font-size: 20px;
+}
+
+/* Section 3: Contact */
+#contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1 1 0;
+    justify-content: space-between;
+    align-items: flex-start;
 }
