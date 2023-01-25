@@ -159,9 +159,9 @@ main {
     height: 100%;
 }
 
-#phone-app-label {
+#mood-app-label {
     position: relative;
-    top:  -20%;
+    top:  -13%;
     border: 5px solid #FFDE99;
     background-color: #FFDE99;
     width: 130px;
@@ -170,7 +170,7 @@ main {
 
 #calculator-label {
     position: relative;
-    top:  -20%;
+    top:  -13%;
     border: 5px solid #FFDE99;
     background-color: #FFDE99;
     width: 120px;
